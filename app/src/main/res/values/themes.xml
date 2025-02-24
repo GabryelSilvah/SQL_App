@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Usuario_SQL" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowAnimationStyle"></item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+
+    <style name="Theme.Usuario_SQL" parent="Base.Theme.Usuario_SQL" >
+        <item name="android:statusBarColor">#2596be</item>
+    </style>
+
+
+    <style name="card_home">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="text_cardView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/louis_bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
